@@ -24,4 +24,6 @@ switch(expressao){
     break;
     case 'multiplicar':
         document.write(`O valor da multiplicação foi ${multiplicar}`)
+    default: 
+        document.write("Insira uma operação válida!!") 
 }
